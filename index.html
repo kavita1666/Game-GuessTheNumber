@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game-Guess the Number</title>
+</head>
+<body>
+    <div class="container">
+        <div class="upper-container">
+            <h1>Guess A Number Between 1-20</h1>
+            <div class="random-number">?</div>
+        </div>
+
+        <div class="lower-container">
+            <div class="btn-container">
+                <input type="number" class="guess-number" value="">
+                <div class="btns">
+                    <button class="btn ckeck-no">Check</button>
+                    <button class="btn play-again">Play Again</button>
+                </div>
+            </div>
+
+            <div class="score-container">
+                <p class="message">Start Guessing..</p>
+                <p class="label-score">Current Score: <span class="score">20</span> </p>
+                <p class="label-highscore">Highest Score: <span class="highscore">0</span> </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
